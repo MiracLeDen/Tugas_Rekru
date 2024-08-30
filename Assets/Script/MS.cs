@@ -8,7 +8,7 @@ public class MS : MonoBehaviour
 {
     Rigidbody2D rb;
     int speed;
-    float jumpForce = 20;
+    float jumpForce = 100;
     private bool isGrounded;
     public Button jumpButton;
 
@@ -33,6 +33,10 @@ public class MS : MonoBehaviour
         if (col.tag == "Pindah2")
         {
             SceneManager.LoadScene("Scene2");
+        }
+        if (col.tag == "Pindah3")
+        {
+            SceneManager.LoadScene("Scene4");
         }
     }
 
