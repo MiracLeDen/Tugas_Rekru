@@ -658,6 +658,8 @@ MonoBehaviour:
   animasi: {fileID: 430818443}
   isLeft: 0
   isGrounded: 0
+  fireball: {fileID: 0}
+  firepos: {fileID: 0}
 --- !u!50 &631873289
 Rigidbody2D:
   serializedVersion: 4
@@ -673,7 +675,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

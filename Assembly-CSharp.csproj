@@ -67,9 +67,11 @@
     <Compile Include="Assets\Script\MonsterDamage.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
     <Compile Include="Assets\Script\EnemyBehavior.cs" />
+    <Compile Include="Assets\Script\PlayerDamage.cs" />
     <Compile Include="Assets\Script\FireController.cs" />
     <Compile Include="Assets\Script\MS.cs" />
     <Compile Include="Assets\Script\SceneMove.cs" />
+    <Compile Include="Assets\Script\MonsterHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
